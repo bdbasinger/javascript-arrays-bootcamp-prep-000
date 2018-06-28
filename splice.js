@@ -48,10 +48,11 @@ console.log(items) // [ 1, 3, 5, 7, 15, 17, 19 ]
 
 var items = [1,2,3,4,5,6,7,8,9,10]
 
-console.log(items.splice(4,2,7,7,7)) // At index 4, remove two items
+items.splice(4,2,7,7,7)
+// At index 4, remove two items
 // Then add [7,7,7] at that location in the array
 
-console.log(items)
+console.log(items) // [ 1, 2, 3, 4, 7, 7, 7, 7, 8, 9, 10 ]
 
 
 
