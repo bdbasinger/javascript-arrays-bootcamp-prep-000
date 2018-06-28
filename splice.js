@@ -44,7 +44,7 @@ console.log(items) // [ 1, 3, 5, 7, 15, 17, 19 ]
 
 // .splice(a,b,...) with three arguments
 // At index a, remove b number of items,
-// Then list the number of items to add to the array at the specified index
+// Then list the number of items to add to the array at the specified index a
 
 var items = [1,2,3,4,5,6,7,8,9,10]
 
