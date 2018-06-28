@@ -13,4 +13,4 @@ console.log(items) // [2,4,6,8]
 
 var items = [1,3,5,7,9,11,13,15,17,19]
 
-console.log(items)
+items.splice()
