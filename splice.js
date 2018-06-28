@@ -6,4 +6,3 @@ items.splice(4)
 
 console.log(items)
 
-console.log(items.splice(1))
